@@ -1,0 +1,19 @@
+specs
+The Program does nothing to non-alphabetical characters
+example input:3
+Example output:3
+The Program adds "ay" to single-letter words beginning with a vowel
+example input:i
+Example output:iay
+The program adds "way" to words starting with a vowel
+example input: excite
+example output: exciteway
+The program moves the first consecutive consonants to the end of words starting with a consonant then adds ay to those words
+example input: front
+example output: ontfray
+The program moves the vowel "u" the end of a word if the consonant "q" is directly infront of it and already being moved to the rear
+example input: squeal
+example output: ealsquay
+The program follows the same rules for words that start with "y" as the rules used for words that start with consonants
+example input: year
+example output: earyay
